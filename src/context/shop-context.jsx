@@ -5,7 +5,7 @@ export const ShopContext = createContext(null);
 
 const getDefaultCart = () => {
     let cart = {};
-    for (let i = 1; i < PRODUCTS.length; i++) {
+    for (let i = 1; i < PRODUCTS.length + 1; i++) {
         cart[i] = 0;
     }
     return cart;
@@ -24,7 +24,7 @@ export const ShopContextProvider = (props) => {
 
     const contextValue = {cartItems, addToCart, removeFromCart}
 
-    console.log(cartItems)
+    // console.log(cartItems)
 
     return (
         <ShopContext.Provider value={contextValue}>
