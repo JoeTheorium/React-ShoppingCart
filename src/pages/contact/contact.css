@@ -1,0 +1,13 @@
+div {
+    text-align: center;
+}
+
+div a{
+    font-size: 10rem;
+    color: #2d0c47;
+    text-decoration-line: none;
+}
+
+div a:hover {
+    color: #c2a60b;
+}

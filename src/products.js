@@ -9,49 +9,49 @@ import product8 from "./assets/products/8.webp";
 
 export const PRODUCTS = [
   {
-    productID: 1,
+    productId: 1,
     productName: "IPhone",
     productPrice: 999.0,
     productImage: product1,
   },
   {
-    productID: 2,
+    productId: 2,
     productName: "Macbook Pro 2022 (M1)",
     productPrice: 1999.0,
     productImage: product2,
   },
   {
-    productID: 3,
+    productId: 3,
     productName: "Cannon M50 Camera",
     productPrice: 699.0,
     productImage: product3,
   },
   {
-    productID: 4,
+    productId: 4,
     productName: "WLS Van Gogh Denim Jacket",
     productPrice: 228.0,
     productImage: product4,
   },
   {
-    productID: 5,
+    productId: 5,
     productName: "LED Light Strips",
     productPrice: 19.99,
     productImage: product5,
   },
   {
-    productID: 6,
+    productId: 6,
     productName: "SPECTRUM LS TEE",
     productPrice: 68.0,
     productImage: product6,
   },
   {
-    productID: 7,
+    productId: 7,
     productName: "AUTO SERVICE SHIRT by GOLF WANG",
     productPrice: 120.0,
     productImage: product7,
   },
   {
-    productID: 8,
+    productId: 8,
     productName: "DON'T TRIP UNSTRUCTURED HAT",
     productPrice: 40.0,
     productImage: product8,
